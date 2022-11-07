@@ -1,25 +1,28 @@
 # print("test python")
+# print(123) ; print(456) #;는 마침표를 의미함
 
-#총 3개의 인자를 받는 calc(num1,num2,op)
-def calc(num1,num2,op):
-    if op == "+":
-        print(num1+num2)
-    elif op == '-':
-        print(num1-num2)
-    elif op == '*':
-        print(num1*num2)
-    elif op == '/':
-        print(num1/num2)
+#escape 문자
+# \n , \t , \" , \', \\
 
-calc(5,10,'/')
+# print("{:,}".format(10000000))
+# {:>10} : 오른쪽정렬
+# {:<10} : 왼쪽정렬
+# {:^10} : 가운데 정렬
+# {:5>10} : 오른쪽정렬, 빈칸에 5 추가
 
+'''
+변수
+-무언가(데이터)를 저장하기 위한 공간
 
+변수 이름 작성 규칙
+-의미를 부여해서 만든다
+-이름은 영어로 만든다
+-보통 3~10자 이내에 만든다
+-키워드는 사용하면 안된다
+'''
 
-
-
-
-#vsum 함수를 만들어 인자로 전달된 모든 값을 더하는 함수를 만드시오
-
-#vsum(1,2) 결과값:3
-#vsum(1,2,3) 결과값:6
-#vsum(1,2,3,4,5) 결과값 : 15
+# #round : 반올림
+# flt = 123.456
+# print(round(flt))
+# print(round(flt,1))
+# print(round(flt,2))
