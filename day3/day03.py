@@ -154,6 +154,44 @@
 # print("총 개수:{}\na 개수:{}\ns 개수:{}".format(cnt,a_c,s_c))
 # print("총 개수:{}\na 개수:{}\ns 개수:{}".format(len(st),st.count('a'),st.count('s')))        
 
+#나이트문제
+# n ='c2'
+# y_ = ['a','b','c','d','e','f','g','h']
+# for i in range(8):
+#     if n[0] == y_[i]:
+#         y=i+1
+# x=int(n[1])
+
+# dx = [1,-1,1,-1,2,2,-2,-2]
+# dy = [2,2,-2,-2,1,-1,1,-1]
+
+# cnt=0
+
+# for i in range(8):
+#     nx = x+dx[i]
+#     ny = y+dy[i]
+#     if nx>=1 and ny>=1 and nx<=8 and ny<=8:
+#         cnt+=1
+
+# print(cnt)
+
+# total_seat = 30
+# count=0
+# while True:
+#     print("="*10,"좌석 예약 프로그램","="*10)
+#     people = int(input("일행 수"))
+#     print("+","-"*20,"+")
+#     if total_seat<0:
+#         print("좌석이 부족합니다.")
+#         print("예약 가능 {}자리 남았습니다.".format(total_seat))
+#     else:
+#         print("|{}부터 {}번 좌석입니다.|".format(count+1,count+people))
+#         print("+","-"*20,"+")
+#         total_seat -= people
+#         count+=people
+#         print("예약 가능 {}자리 남았습니다.".format(total_seat))
+#         if total_seat ==0:
+#             print("모든 좌석이 예약되었습니다. 예약을 종료합니다.")  
+#             break
 
 
-    
