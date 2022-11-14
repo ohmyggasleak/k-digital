@@ -1,3 +1,12 @@
+# # * : 전체
+# def star(*a):
+#     sum_=0
+#     for i in a:
+#         sum_+=i
+#     print(sum_)
+
+# star(1,2,3,4,5,6)
+
 # 키워드 파라미터 : 매개변수 앞에 별 두개(**)를 붙인다.
 # def kwards(**arg):
 #     print(arg)
