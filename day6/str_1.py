@@ -24,6 +24,8 @@
 # print(st.startswith('ne'))
 # print(st.endswith('up'))
 # print(st.endswith('Up'))
+# print(st.upper().isupper())
+# print(st.islower())
 
 # st= "It is a fun Python class"
 # print(len(st))
@@ -152,8 +154,6 @@
 #         if li[i]>li[j]:
 #             li[i],li[j] = li[j],li[i]
 # print(li)
-
-
 
 
 # ls.sort()
