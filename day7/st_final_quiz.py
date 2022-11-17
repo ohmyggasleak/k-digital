@@ -2255,6 +2255,23 @@ new naver.comic.RecommandWebtoonRankLayer(2, "https://shared-comic.pstatic.net/t
 </html>
 
 '''
+for i in st.split('src'):
+	for k in i.split():
+		if ('.jpg' in k) or ('.png' in k) or ('.gif' in k):
+			index=0
+			k = k.split('/')
+			k=k[-1]
+			index=k.find('.gif')+4
+			index=k.find('.jpg')+4
+			index=k.find('.png')+4
+			print(k[:index])
+			# k[-1].find('.jpg')
+
+			
+
+
+
+
 
 # print("png : ", st.count(".png") )
 # print("jpg : ", st.count(".jpg") )

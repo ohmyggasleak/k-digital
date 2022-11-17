@@ -213,7 +213,7 @@ continue : 반복문 위로 올려보낸다
 #         if i%j==0:
 #             cnt+=1
 #     if cnt==2:
-#         print("{}".format(i),end = " ")
+        # print("{}".format(i),end = " ")
 
 
 
