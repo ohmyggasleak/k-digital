@@ -73,6 +73,7 @@ class
 # obj = MethodTest01()
 # # obj.sumFunc()
 # # tul = obj.myInput()
+# # print(tul)
 # n1 , n2 = obj.myInput()
 # s = obj.sumN(n1,n2)
 # obj.myPrint(n1,n2,s)
